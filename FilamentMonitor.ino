@@ -13,8 +13,8 @@
 #include <ESP8266mDNS.h>
 
 #ifndef STASSID
-    #define STASSID "Parrot"        // Network Name
-    #define STAPSK  "306101105"     // Network Passcode
+    #define STASSID "Network Name"        // Network Name
+    #define STAPSK  "Network Passcode"     // Network Passcode
 #endif
 const char* ssid = STASSID;
 const char* password = STAPSK;
